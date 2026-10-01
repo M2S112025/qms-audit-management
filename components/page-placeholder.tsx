@@ -1,0 +1,2 @@
+import { Construction } from 'lucide-react';
+export function PagePlaceholder({title,description}:{title:string;description:string}){return <div className="page"><div className="page-heading"><div><p className="eyebrow">AUDIT MANAGEMENT</p><h1>{title}</h1><p>{description}</p></div></div><section className="placeholder"><span><Construction size={22}/></span><h2>{title}</h2><p>Module coming next</p><small>This workspace is reserved for the next QMS delivery.</small></section></div>}
